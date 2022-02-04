@@ -32,7 +32,7 @@ defmodule LogflareApiClient.MixProject do
   defp deps do
     [
       {:tesla, "~> 1.4"},
-      {:jason, ">= 1.0"},
+      {:jason, "~> 1.0"},
       {:mint, "~> 1.3"},
       {:finch, "~> 0.8"},
       {:castore, "~> 0.1"},
