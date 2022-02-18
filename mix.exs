@@ -11,7 +11,8 @@ defmodule LogflareApiClient.MixProject do
       description: "A common client interface to the Logflare API.",
       package: [
         licenses: ["MIT"],
-        links: %{"GitHub" => "https://github.com/Logflare/logflare_api_client"}
+        links: %{"GitHub" => "https://github.com/Logflare/logflare_api_client"},
+        organization: "trivector"
       ],
       deps: deps()
     ]
